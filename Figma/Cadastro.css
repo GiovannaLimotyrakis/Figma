@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    font-family:"Lora", serif; 
+    border: 1px;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+   display: flex;
+   background-color: #2D3136;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    color: white;
+    padding: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#cabecalho{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#logo1{
+    width: 20%; 
+    text-align: center;
+}
+
+#logo2{
+    color: white;
+    font-size: 40px;
+}
+
+#logo3{
+    color: #FFA800;
+    font-size: 11px;
+}
+
+#lista{
+    width: 50%;
+    display: flex;
+}
+
+a{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+#frase {
+    background-color: #2D3136;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+    height: 80vh;
+    margin-bottom: 10%;
+}
+
+#frasetxtLogin {
+    
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 10%
+    
+}
+
+#infor {
+
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 30%
+}
+
+#frase button{
+    margin-top: 2%;
+    width: 10%;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#frase input {
+    border-radius: 7px;
+}
+
+#tudo{
+    margin-top: 10%;
+}
+

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    font-family:"Lora", serif; 
+}
+
+header{
+    width: 100%;
+    height: 100px;
+   display: flex;
+   background-color: #2D3136;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    color: white;
+    padding: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#cabecalho{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#logo1{
+    width: 20%; 
+    text-align: center;
+}
+
+#logo2{
+    color: white;
+    font-size: 40px;
+}
+
+#logo3{
+    color: #FFA800;
+    font-size: 11px;
+}
+
+#lista{
+    width: 50%;
+    display: flex;
+}
+
+#Peça img{
+    width: 100%;
+
+}
+
+#inicio {
+    display: flex;
+    
+}
+
+#texto1 {
+    font-size: 100px;
+    margin-left: 80PX;
+    padding: 40px;
+   
+    color: #2D3136;
+    
+}
+
+#texto2 {
+    font-size: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family:"Roboto", sans-serif;
+    color: #2D3136;
+    text-align: justify;
+
+
+}
+
+#foto{
+    padding: 50px;
+    width: 100%;
+}
+
+#final {
+    background-color: #2D3136;
+    height: 30vh;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: "Lora", serif;
+    
+}
+
+#final2{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-left: 30%;
+    padding-top: 80px;
+    
+    
+    
+}
+
+#final2 svg {
+    width: 50px;
+    vertical-align: middle;
+    fill: white;
+}
+
+#horario{
+    text-align: center;
+    padding-top: 5%;
+    margin-left: 20%;
+}
+
+a{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+
+
+
